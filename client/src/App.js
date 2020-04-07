@@ -1,15 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./components/Header/Header";
 import Nav from "./components/NavBar/Nav";
-import SavedList from "./components/SavedList";
-import ResultList from "./components/ResultList";
-import SearchBox from "./components/SearchBox/SearchBox";
-import "./App.css";
+import NoMatch from "./pages/NoMatch";
+import SavedList from "./pages/SavedList";
+import ResultList from "./pages/ResultList";
+
 
 function App() {
   return (
-    <div className="App">
       <Router>
         <div>
           <Nav />
@@ -21,14 +19,11 @@ function App() {
               <ResultList />
             </Route>
             <Route>
-              <SearchBox />
+            <NoMatch />
             </Route>
           </Switch>
         </div>
       </Router>
-      <Header />
-
-    </div>
   );
 }
 
