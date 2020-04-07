@@ -1,6 +1,7 @@
 import React from "react";
 
 function SavedCard(props){
+  return(
 <div className="saved_card">
 <div className="img-container">
         <img alt={props.name} src={props.image} />
@@ -15,7 +16,8 @@ function SavedCard(props){
           </li>
         </ul>
       </div> 
+      
     
 </div>
-}
+  )}
 export default SavedCard;
