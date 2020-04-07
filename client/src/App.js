@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
-import Nav from "./components/Nav"
+import Header from "./components/Header";
+import Nav from "./components/Nav";
 import SavedList from "./components/SavedList";
 import ResultList from "./components/ResultList";
 import SearchList from "./components/SearchList";
+import "./App.css";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
           </Switch>
         </div>
       </Router>
+      <Header />
+      
     </div>
   );
 }
