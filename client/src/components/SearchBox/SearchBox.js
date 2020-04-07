@@ -1,5 +1,5 @@
 import React from "react";
-import SearchButton from "./Buttons/Search/SearchButton"
+import SearchButton from "../Buttons/Search/SearchButton"
 
 function SearchBox(props){
     return(
