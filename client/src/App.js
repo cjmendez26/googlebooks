@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "../components/Header/Header";
-import Nav from "../components/NavBar/Nav";
+import Header from "./components/Header/Header";
+import Nav from "./components/NavBar/Nav";
 import SavedList from "./components/SavedList";
 import ResultList from "./components/ResultList";
-import SearchBox from "../components/SearchBox/SearchBox";
+import SearchBox from "./components/SearchBox/SearchBox";
 import "./App.css";
 
 function App() {
