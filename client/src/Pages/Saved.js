@@ -5,9 +5,11 @@ import SavedList from "./components/SavedList";
 
 function Saved() {
     return (
+        <div>
         <Nav />
         <Header />
         <SavedList/>
+        </div>
     )
 } 
 

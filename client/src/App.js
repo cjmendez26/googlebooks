@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import SavedList from "./components/SavedList";
 import ResultList from "./components/ResultList";
-import SearchList from "./components/SearchList";
+import SearchBox from "./components/SearchBox";
 import "./App.css";
 
 function App() {
@@ -18,16 +18,16 @@ function App() {
               <SavedList />
             </Route>
             <Route exact path={["/search"]}>
-              <SearchList />
+              <ResultList />
             </Route>
             <Route>
-              <ResultList />
+              <SearchBox />
             </Route>
           </Switch>
         </div>
       </Router>
       <Header />
-      
+
     </div>
   );
 }
