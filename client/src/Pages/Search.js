@@ -1,17 +1,19 @@
 import React from "react";
-import Nav from "./components/Nav";
 import Header from "./components/Header";
-import SearchList from "./components/SearchList";
+import BookCard from "./components/BookCard";
+import ViewButton from "../components/Buttons/View/ViewButton";
+import SaveButton from "../components/Buttons/Save/SaveButton";
 
 function Search() {
     return (
         <div>
-        <Nav />
         <Header />
         <SearchBox />
-        <SearchList/>
+        <BookCard />
+        <ViewButton />
+        <SaveButton />
         </div>
     )
 } 
 
-export default search;
+export default Search;

@@ -8,7 +8,7 @@ function BookCard(props) {
   <a>Author:</a>
   <div>
   <img>image</img>
-  <p>Intro</p>
+  <p>Synapse:</p>
   </div>
 </div>
 

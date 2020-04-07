@@ -1,14 +1,16 @@
-import React from "react";
-import Nav from "./components/Nav";
+import React, {Component} from "react";
 import Header from "./components/Header";
-import SavedList from "./components/SavedList";
+import BookCard from "../components/BookCard/BookCard";
+import ViewButton from "../components/Buttons/View/ViewButton";
+import DeleteButton from "../components/Buttons/View/DeleteButton";
 
 function Saved() {
     return (
         <div>
-        <Nav />
         <Header />
-        <SavedList/>
+        <BookCard />
+        <ViewButton />
+        <DeleteButton />
         </div>
     )
 } 
